@@ -25,15 +25,24 @@
     <nav class="navbar">
       <a href="#" class="navbar-logo">Kopi <span>Kenangan</span>.</a>
       <div class="navbar-nav">
-        <a href="#home">Home</a><a href="#about">About</a
-        ><a href="#menu">Menu</a><a href="#contact">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+      <!-- Search Form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here....." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End-->
     </nav>
     <!-- NAVBAR END -->
 
@@ -82,84 +91,253 @@
 
     <!-- MENU SECTION -->
     <section id="menu" class="menu">
-        <h2>Menu <span>Kami</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique temporibus pariatur, rem vel sint illo? Culpa tempore blanditiis similique.</p>
-        <div class="row">
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
-            <div class="menu-card">
-                <img src="./menu/expresso.jpg" alt="expresso" class="menu-card-image">
-                <h3 class="menu-card-tittle"> - Expresso</h3>
-                <p class="menu-card-price"> IDR 15K</p>
-            </div>
+      <h2>Menu <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        similique temporibus pariatur, rem vel sint illo? Culpa tempore
+        blanditiis similique.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
         </div>
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="./menu/expresso.jpg"
+            alt="expresso"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-tittle">- Expresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
     </section>
     <!-- MENU SECTION END-->
 
+    <!-- PRODUCTS -->
+    <div id="products" class="products">
+      <h2><span>Products</span> Unggulan <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        temporibus illo, optio numquam eum similique quasi non! Nihil,
+        accusantium? Veniam!
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star4"></i>
+              <i data-feather="star" class="star5"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star4"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star4"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star4"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star4"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"> <i data-feather="shopping-cart"></i></a>
+            <a href="#"> <i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="./products/product1.jpg" alt="product1"/>
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star1"></i>
+              <i data-feather="star" class="star2"></i>
+              <i data-feather="star" class="star3"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+          </div>
+          <div class="procut-price">IDR 30K<span> IDR 55K</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- PRODUCTS END -->
+
     <!-- CONTACT -->
     <section id="contact" class="contact">
-        <h2>Contact <span>Us</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, earum?</p>
-        <div class="row">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0245668157386!2d102.27563271233768!3d-3.804766543553134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36b161ec6a6a83%3A0x1e1175c4144610e0!2sJanji%20Jiwa%20%26%20Jiwa%20Tea%20Jilid%20485%20-%20Tanah%20Patah%2C%20Bengkulu!5e0!3m2!1sen!2sid!4v1708143850400!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-            <form action="">
-                <div class="input-group">
-                    <i data-feather="user"></i>
-                    <input type="text" placeholder="Name">
-                </div>
-                <div class="input-group">
-                    <i data-feather="mail"></i>
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="input-group">
-                    <i data-feather="phone"></i>
-                    <input type="number" placeholder="Phone Number">
-                </div>
-                <button class="btn">Submit</button>
-            </form>
-        </div>
+      <h2>Contact <span>Us</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, earum?
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0245668157386!2d102.27563271233768!3d-3.804766543553134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36b161ec6a6a83%3A0x1e1175c4144610e0!2sJanji%20Jiwa%20%26%20Jiwa%20Tea%20Jilid%20485%20-%20Tanah%20Patah%2C%20Bengkulu!5e0!3m2!1sen!2sid!4v1708143850400!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="Phone Number" />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
     </section>
     <!-- CONTACT END-->
 
     <!-- FOOTER -->
     <footer>
-        <div class="social">
-            <a href="#"> <i data-feather="instagram"></i> Instagram</a>
-            <a href="#"> <i data-feather="twitter"></i> Twitter</a>
-            <a href="#"> <i data-feather="facebook"></i> Facebook</a>
-        </div>
-        <div class="links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="credit">
-            <p>Created by <a href="#">Suwandi Ramadhan</a>. | &copy; 2024</p>
-        </div>
+      <div class="social">
+        <a href="#"> <i data-feather="instagram"></i> Instagram</a>
+        <a href="#"> <i data-feather="twitter"></i> Twitter</a>
+        <a href="#"> <i data-feather="facebook"></i> Facebook</a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#">Suwandi Ramadhan</a>. | &copy; 2024</p>
+      </div>
     </footer>
     <!-- FOOTER END -->
 
