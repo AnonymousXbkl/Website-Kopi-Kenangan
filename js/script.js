@@ -37,7 +37,7 @@ const shoppingCart = document.querySelector ('.shopping-cart')
     });
         shoppingCartButton.addEventListener ('click', function (e) {
             shoppingCart.classList.toggle ('active');
-        
+            e.preventDefault ();
     });
 
 // Item Detail Modal
